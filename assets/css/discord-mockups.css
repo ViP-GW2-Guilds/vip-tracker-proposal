@@ -2,24 +2,24 @@
 
 .discord-mockup {
     background: #36393f;
-    border-radius: 8px;
-    padding: 20px;
-    max-width: 700px;
-    margin: 30px auto;
+    border-radius: 6px;
+    padding: 15px;
+    max-width: 600px;
+    margin: 15px auto;
     text-align: left;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 .discord-mockup.small {
-    max-width: 500px;
-    padding: 15px;
+    max-width: 450px;
+    padding: 12px;
 }
 
 .discord-message {
     display: flex;
-    gap: 15px;
-    margin-bottom: 15px;
-    padding: 10px;
+    gap: 12px;
+    margin-bottom: 12px;
+    padding: 8px;
     border-radius: 4px;
 }
 
@@ -28,8 +28,8 @@
 }
 
 .discord-avatar {
-    width: 40px;
-    height: 40px;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
     background: #7289da;
     display: flex;
@@ -38,7 +38,7 @@
     font-weight: bold;
     color: white;
     flex-shrink: 0;
-    font-size: 0.9em;
+    font-size: 0.75em;
 }
 
 .discord-content {
@@ -48,8 +48,8 @@
 .discord-author {
     font-weight: 600;
     color: #ffffff;
-    margin-bottom: 5px;
-    font-size: 0.95em;
+    margin-bottom: 4px;
+    font-size: 0.85em;
 }
 
 .discord-bot-tag {
@@ -76,25 +76,25 @@
     font-family: 'Courier New', monospace;
     color: #7289da;
     background: rgba(114, 137, 218, 0.1);
-    padding: 5px 10px;
+    padding: 4px 8px;
     border-radius: 4px;
     display: inline-block;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 .discord-text {
     color: #dcddde;
-    line-height: 1.6;
-    font-size: 0.9em;
+    line-height: 1.5;
+    font-size: 0.8em;
 }
 
 /* Discord Embeds */
 .discord-embed {
     background: #2f3136;
-    border-left: 4px solid #7289da;
+    border-left: 3px solid #7289da;
     border-radius: 4px;
-    padding: 15px;
-    margin-top: 10px;
+    padding: 12px;
+    margin-top: 8px;
 }
 
 .discord-embed.status-embed {
@@ -104,18 +104,18 @@
 .discord-embed-title {
     font-weight: 600;
     color: #ffffff;
-    margin-bottom: 10px;
-    font-size: 1em;
+    margin-bottom: 8px;
+    font-size: 0.9em;
 }
 
 .discord-embed-description {
     color: #dcddde;
-    line-height: 1.8;
-    font-size: 0.85em;
+    line-height: 1.6;
+    font-size: 0.75em;
 }
 
 .discord-embed-fields {
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .embed-divider {
@@ -144,7 +144,7 @@
 /* Discord Buttons */
 .discord-button-row {
     display: flex;
-    gap: 10px;
+    gap: 8px;
     flex-wrap: wrap;
 }
 
@@ -152,11 +152,11 @@
     background: #5865f2;
     color: #ffffff;
     border: none;
-    padding: 10px 20px;
+    padding: 8px 16px;
     border-radius: 4px;
     font-weight: 500;
     cursor: pointer;
-    font-size: 0.85em;
+    font-size: 0.75em;
     transition: background 0.2s;
 }
 
@@ -167,13 +167,13 @@
 /* Discord Form Elements */
 .discord-form {
     background: #2f3136;
-    padding: 15px;
-    border-radius: 6px;
-    margin-top: 10px;
+    padding: 12px;
+    border-radius: 4px;
+    margin-top: 8px;
 }
 
 .form-field {
-    margin-bottom: 15px;
+    margin-bottom: 12px;
 }
 
 .form-field:last-child {
@@ -183,10 +183,10 @@
 .form-field label {
     display: block;
     color: #b9bbbe;
-    font-size: 0.75em;
+    font-size: 0.65em;
     font-weight: 600;
     text-transform: uppercase;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
     letter-spacing: 0.5px;
 }
 
@@ -195,9 +195,9 @@
     background: #202225;
     border: 1px solid #202225;
     border-radius: 4px;
-    padding: 10px 12px;
+    padding: 8px 10px;
     color: #dcddde;
-    font-size: 0.9em;
+    font-size: 0.75em;
     font-family: inherit;
 }
 
@@ -213,19 +213,19 @@
 /* Web Mockup */
 .web-mockup {
     background: #ffffff;
-    border-radius: 8px;
+    border-radius: 6px;
     overflow: hidden;
-    max-width: 900px;
-    margin: 30px auto;
+    max-width: 750px;
+    margin: 15px auto;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
 .browser-bar {
     background: #e8eaed;
-    padding: 12px 15px;
+    padding: 8px 12px;
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 12px;
 }
 
 .browser-dots {
@@ -234,8 +234,8 @@
 }
 
 .dot {
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
 }
 
@@ -245,15 +245,15 @@
 
 .browser-url {
     background: #ffffff;
-    padding: 6px 12px;
-    border-radius: 4px;
-    font-size: 0.8em;
+    padding: 4px 10px;
+    border-radius: 3px;
+    font-size: 0.7em;
     color: #5f6368;
     flex: 1;
 }
 
 .web-content {
-    padding: 30px;
+    padding: 20px;
     background: #f8f9fa;
     color: #202124;
     text-align: left;
@@ -261,48 +261,48 @@
 
 .web-content h3 {
     color: #202124;
-    margin-bottom: 20px;
-    font-size: 1.4em;
+    margin-bottom: 15px;
+    font-size: 1.1em;
 }
 
 .review-controls {
     display: flex;
-    gap: 20px;
+    gap: 12px;
     align-items: center;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     flex-wrap: wrap;
 }
 
 .review-controls label {
-    font-size: 0.85em;
+    font-size: 0.7em;
     color: #5f6368;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
 }
 
 .web-input {
     background: #ffffff;
     border: 1px solid #dadce0;
-    border-radius: 4px;
-    padding: 8px 12px;
-    font-size: 0.9em;
+    border-radius: 3px;
+    padding: 6px 10px;
+    font-size: 0.75em;
     color: #202124;
 }
 
 .web-input.small {
-    width: 80px;
+    width: 70px;
 }
 
 .web-button {
     background: #1a73e8;
     color: #ffffff;
     border: none;
-    padding: 10px 24px;
+    padding: 8px 18px;
     border-radius: 4px;
     font-weight: 500;
     cursor: pointer;
-    font-size: 0.9em;
+    font-size: 0.75em;
 }
 
 .web-button:hover {
@@ -312,7 +312,7 @@
 .review-table {
     width: 100%;
     border-collapse: collapse;
-    font-size: 0.85em;
+    font-size: 0.7em;
 }
 
 .review-table thead {
@@ -320,7 +320,7 @@
 }
 
 .review-table th {
-    padding: 12px;
+    padding: 8px;
     text-align: left;
     font-weight: 600;
     color: #202124;
@@ -328,7 +328,7 @@
 }
 
 .review-table td {
-    padding: 12px;
+    padding: 8px;
     border-bottom: 1px solid #e8eaed;
 }
 

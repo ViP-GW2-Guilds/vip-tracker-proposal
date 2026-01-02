@@ -85,7 +85,7 @@
 .discord-text {
     color: #dcddde;
     line-height: 1.5;
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
 
 /* Discord Embeds */
@@ -192,13 +192,15 @@
 
 .discord-select, .discord-input {
     width: 100%;
+    max-width: 100%;
     background: #202225;
     border: 1px solid #202225;
     border-radius: 4px;
     padding: 8px 10px;
     color: #dcddde;
-    font-size: 0.75em;
+    font-size: 0.7em;
     font-family: inherit;
+    box-sizing: border-box;
 }
 
 .discord-select:focus, .discord-input:focus {

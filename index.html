@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ViP Officer Credit Tracking System Proposal</title>
+
+    <!-- Reveal.js CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/reveal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/theme/black.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/discord-mockups.css">
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+            <!-- Slide 1: Title & Current Problems -->
+            <section>
+                <h1>ViP Officer Credit Tracking</h1>
+                <h3>A Modern Solution for Officer Management</h3>
+                <br>
+                <div class="problem-list">
+                    <h4>Current Pain Points:</h4>
+                    <ul>
+                        <li>📋 Manual form opening/closing every week</li>
+                        <li>🚫 No retroactive submissions</li>
+                        <li>🧮 All calculations done by hand</li>
+                        <li>👻 Officers frequently forget to submit</li>
+                        <li>❓ No way to check status during the week</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Slide 2: Solution Overview -->
+            <section>
+                <h2>The Solution</h2>
+                <div class="solution-overview">
+                    <div class="solution-part">
+                        <h3>📱 Discord Bot</h3>
+                        <p>Submit credit anytime, anywhere</p>
+                        <ul>
+                            <li>Simple slash commands</li>
+                            <li>Instant feedback</li>
+                            <li>No more forms to open/close</li>
+                        </ul>
+                    </div>
+                    <div class="solution-part">
+                        <h3>🌐 Web Dashboard</h3>
+                        <p>View data & run reviews</p>
+                        <ul>
+                            <li>Officers see their own data</li>
+                            <li>Admins perform reviews</li>
+                            <li>Automated calculations</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 3: PvE Events - Automated Tracking -->
+            <section>
+                <h2>PvE Events: Fully Automated</h2>
+                <p>Commanders announce events, officers sign up with buttons</p>
+
+                <div class="discord-mockup">
+                    <div class="discord-message">
+                        <div class="discord-avatar">CB</div>
+                        <div class="discord-content">
+                            <div class="discord-author">CommanderBot <span class="discord-bot-tag">BOT</span></div>
+                            <div class="discord-embed">
+                                <div class="discord-embed-title">📅 Strikes - Tuesday Night</div>
+                                <div class="discord-embed-description">
+                                    <strong>Duration:</strong> 2 hours<br>
+                                    <strong>Commander:</strong> @OfficerAlice<br><br>
+                                    <strong>LT Roles Available:</strong>
+                                </div>
+                                <div class="discord-embed-fields">
+                                    <div class="discord-button-row">
+                                        <button class="discord-button">Typer</button>
+                                        <button class="discord-button">Spammer</button>
+                                        <button class="discord-button">Wrangler</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-note">
+                    ✅ No manual tracking needed - system records everything automatically
+                </div>
+            </section>
+
+            <!-- Slide 4: Probationary Officer Training -->
+            <section>
+                <h2>Probationary Officer Training</h2>
+                <p>Probies can take over LT roles for hands-on learning</p>
+
+                <div class="feature-explanation">
+                    <div class="feature-step">
+                        <h4>1. Probi Clicks LT Role</h4>
+                        <p>Takes over from a regular officer</p>
+                    </div>
+                    <div class="feature-step">
+                        <h4>2. Original Officer Gets Credit</h4>
+                        <p>Still receives full points without attending</p>
+                    </div>
+                    <div class="feature-step">
+                        <h4>3. Probi Gets Experience</h4>
+                        <p>Learns the role and earns points toward graduation</p>
+                    </div>
+                </div>
+
+                <div class="discord-mockup small">
+                    <div class="discord-message">
+                        <div class="discord-avatar">CB</div>
+                        <div class="discord-content">
+                            <div class="discord-author">CommanderBot <span class="discord-bot-tag">BOT</span></div>
+                            <div class="discord-text">
+                                <strong>Typer:</strong> @ProbiOfficer <span class="probi-tag">(@OfficerBob - Probied!)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 5: WvW System -->
+            <section>
+                <h2>WvW Event Tracking</h2>
+                <p>Flexible submission system for WvW activities</p>
+
+                <div class="discord-mockup">
+                    <div class="discord-message">
+                        <div class="discord-avatar">U</div>
+                        <div class="discord-content">
+                            <div class="discord-author">You</div>
+                            <div class="discord-command">/tracker wvw</div>
+                        </div>
+                    </div>
+                    <div class="discord-message bot-response">
+                        <div class="discord-avatar">CB</div>
+                        <div class="discord-content">
+                            <div class="discord-author">CommanderBot <span class="discord-bot-tag">BOT</span></div>
+                            <div class="discord-form">
+                                <div class="form-field">
+                                    <label>Role:</label>
+                                    <select class="discord-select">
+                                        <option>Commander (20 pts/hr)</option>
+                                        <option>LT (10 pts/hr)</option>
+                                        <option>Participant (2 pts/hr)</option>
+                                    </select>
+                                </div>
+                                <div class="form-field">
+                                    <label>Hours:</label>
+                                    <input type="text" class="discord-input" placeholder="2.5">
+                                </div>
+                                <div class="form-field">
+                                    <label>Date:</label>
+                                    <select class="discord-select">
+                                        <option>Today (Mon, Jan 13)</option>
+                                        <option>Yesterday (Sun, Jan 12)</option>
+                                        <option>Earlier date...</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-note">
+                    💡 Submit after your WvW runs with flexible hours - just like the current system
+                </div>
+            </section>
+
+            <!-- Slide 6: Other Submissions -->
+            <section>
+                <h2>Other Activity Submissions</h2>
+
+                <div class="command-grid">
+                    <div class="command-box">
+                        <h4>/tracker hourly</h4>
+                        <p>Admin or Dev Work</p>
+                        <ul class="small-list">
+                            <li>10 points per hour</li>
+                            <li>Optional description</li>
+                            <li>Date selection (7 days)</li>
+                        </ul>
+                    </div>
+
+                    <div class="command-box">
+                        <h4>/tracker recruitment</h4>
+                        <p>Player Recruiting</p>
+                        <ul class="small-list">
+                            <li>1.5 points per recruit</li>
+                            <li>Enter count</li>
+                            <li>Date selection (7 days)</li>
+                        </ul>
+                    </div>
+
+                    <div class="command-box">
+                        <h4>/tracker participation</h4>
+                        <p>PvE Event Attendance</p>
+                        <ul class="small-list">
+                            <li>2 points per hour</li>
+                            <li>Select date, then event</li>
+                            <li>Subject to 50% cap</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 7: Real-Time Status -->
+            <section>
+                <h2>Check Status Anytime</h2>
+                <p>Officers can see their progress in real-time</p>
+
+                <div class="discord-mockup">
+                    <div class="discord-message">
+                        <div class="discord-avatar">U</div>
+                        <div class="discord-content">
+                            <div class="discord-author">You</div>
+                            <div class="discord-command">/tracker status</div>
+                        </div>
+                    </div>
+                    <div class="discord-message bot-response">
+                        <div class="discord-avatar">CB</div>
+                        <div class="discord-content">
+                            <div class="discord-author">CommanderBot <span class="discord-bot-tag">BOT</span> <span class="only-you">Only you can see this</span></div>
+                            <div class="discord-embed status-embed">
+                                <div class="discord-embed-title">📊 Your Officer Credit Status</div>
+                                <div class="discord-embed-description">
+                                    Week of Jan 13 - Jan 19, 2026<br><br>
+                                    <strong>Your Role:</strong> Senior Officer<br>
+                                    <strong>Required:</strong> 30 points/week<br>
+                                    <hr class="embed-divider">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" style="width: 75%"></div>
+                                    </div>
+                                    <strong>Current Progress:</strong> 22.5 / 30 points (75%)<br><br>
+                                    <strong>Breakdown:</strong><br>
+                                    ✦ PvE Events: 20.0 pts<br>
+                                    ✦ WvW: 0.0 pts<br>
+                                    ✦ Other: 2.5 pts<br>
+                                    <hr class="embed-divider">
+                                    ⚠️ 7.5 points remaining
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 8: Admin Dashboard -->
+            <section>
+                <h2>Admin Review Dashboard</h2>
+                <p>Web interface for Community Owners</p>
+
+                <div class="web-mockup">
+                    <div class="browser-bar">
+                        <div class="browser-dots">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="browser-url">tracker.vip-guild.com/admin/reviews</div>
+                    </div>
+                    <div class="web-content">
+                        <h3>Semi-Annual Review Tool</h3>
+                        <div class="review-controls">
+                            <label>Date Range: <input type="text" value="Jun 1 - Dec 1, 2026" class="web-input"></label>
+                            <label>Sample Size: <input type="text" value="4 weeks" class="web-input small"></label>
+                            <button class="web-button">Generate Review</button>
+                        </div>
+                        <table class="review-table">
+                            <thead>
+                                <tr>
+                                    <th>Officer</th>
+                                    <th>Current Role</th>
+                                    <th>Weekly Avg</th>
+                                    <th>Required</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="passing">
+                                    <td>OfficerAlice</td>
+                                    <td>Senior Officer</td>
+                                    <td>32.5</td>
+                                    <td>30</td>
+                                    <td>✅ Passing</td>
+                                </tr>
+                                <tr class="passing">
+                                    <td>OfficerBob</td>
+                                    <td>Officer</td>
+                                    <td>24.0</td>
+                                    <td>20</td>
+                                    <td>✅ Passing</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td>OfficerCarol</td>
+                                    <td>Officer</td>
+                                    <td>18.5</td>
+                                    <td>20</td>
+                                    <td>⚠️ Below Req.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="feature-note">
+                    ⚡ Reviews that took hours now take minutes
+                </div>
+            </section>
+
+            <!-- Slide 9: Architecture -->
+            <section>
+                <h2>How It Works</h2>
+
+                <div class="architecture-diagram">
+                    <div class="arch-component">
+                        <div class="arch-box discord-color">
+                            <h4>Discord Bot</h4>
+                            <p>Officers submit credit via commands</p>
+                        </div>
+                    </div>
+
+                    <div class="arch-arrow">⬇️</div>
+
+                    <div class="arch-component">
+                        <div class="arch-box db-color">
+                            <h4>PostgreSQL Database</h4>
+                            <p>Stores all activity & event data</p>
+                        </div>
+                    </div>
+
+                    <div class="arch-arrow">⬇️</div>
+
+                    <div class="arch-component">
+                        <div class="arch-box web-color">
+                            <h4>Web Dashboard</h4>
+                            <p>View data, run reviews, manage events</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tech-details">
+                    <p><strong>Built on existing infrastructure:</strong></p>
+                    <ul class="small-list">
+                        <li>✅ Same Discord bot you already use</li>
+                        <li>✅ Same PostgreSQL database</li>
+                        <li>✅ Same Digital Ocean hosting</li>
+                        <li>✅ No additional services needed</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Slide 10: Timeline & Next Steps -->
+            <section>
+                <h2>Timeline & Next Steps</h2>
+
+                <div class="timeline">
+                    <div class="timeline-phase">
+                        <h3>Phase 1: Discord Bot</h3>
+                        <p class="timeline-duration">4-6 weeks</p>
+                        <ul class="timeline-list">
+                            <li>Database setup</li>
+                            <li>Event system (/vip-event commands)</li>
+                            <li>Submission commands (/tracker commands)</li>
+                            <li>Status checking</li>
+                            <li>Testing & training</li>
+                        </ul>
+                    </div>
+
+                    <div class="timeline-phase">
+                        <h3>Phase 2: Web Dashboard</h3>
+                        <p class="timeline-duration">6-8 weeks</p>
+                        <ul class="timeline-list">
+                            <li>Officer self-service portal</li>
+                            <li>Admin review tools</li>
+                            <li>Event management</li>
+                            <li>Data export & reports</li>
+                            <li>Testing & training</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="total-timeline">
+                    <h3>Total Timeline: 10-14 weeks (2.5-3.5 months)</h3>
+                    <p>Includes AI-assisted development, leveraging existing infrastructure</p>
+                </div>
+
+                <div class="benefits-summary">
+                    <h4>Expected Benefits:</h4>
+                    <ul>
+                        <li>📉 80% reduction in administrative time</li>
+                        <li>✅ 100% accurate calculations</li>
+                        <li>📱 Officers submit from anywhere, anytime</li>
+                        <li>📊 Real-time visibility into status</li>
+                        <li>⚡ Reviews in minutes, not hours</li>
+                    </ul>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+    <!-- Reveal.js JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/reveal.js"></script>
+    <script src="assets/js/reveal-config.js"></script>
+</body>
+</html>

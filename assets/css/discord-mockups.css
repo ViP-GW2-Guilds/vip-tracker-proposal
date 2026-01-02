@@ -1,0 +1,370 @@
+/* Discord Mockup Styles */
+
+.discord-mockup {
+    background: #36393f;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 700px;
+    margin: 30px auto;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.discord-mockup.small {
+    max-width: 500px;
+    padding: 15px;
+}
+
+.discord-message {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.discord-message.bot-response {
+    background: rgba(114, 137, 218, 0.05);
+}
+
+.discord-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #7289da;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+    flex-shrink: 0;
+    font-size: 0.9em;
+}
+
+.discord-content {
+    flex: 1;
+}
+
+.discord-author {
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 5px;
+    font-size: 0.95em;
+}
+
+.discord-bot-tag {
+    background: #5865f2;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 0.65em;
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+.only-you {
+    background: #2ecc71;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 0.65em;
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+.discord-command {
+    font-family: 'Courier New', monospace;
+    color: #7289da;
+    background: rgba(114, 137, 218, 0.1);
+    padding: 5px 10px;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 0.9em;
+}
+
+.discord-text {
+    color: #dcddde;
+    line-height: 1.6;
+    font-size: 0.9em;
+}
+
+/* Discord Embeds */
+.discord-embed {
+    background: #2f3136;
+    border-left: 4px solid #7289da;
+    border-radius: 4px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.discord-embed.status-embed {
+    border-left-color: #43b581;
+}
+
+.discord-embed-title {
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+.discord-embed-description {
+    color: #dcddde;
+    line-height: 1.8;
+    font-size: 0.85em;
+}
+
+.discord-embed-fields {
+    margin-top: 15px;
+}
+
+.embed-divider {
+    border: none;
+    border-top: 1px solid #4f545c;
+    margin: 12px 0;
+}
+
+/* Progress Bar */
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background: #202225;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #43b581, #7289da);
+    border-radius: 10px;
+    transition: width 0.3s ease;
+}
+
+/* Discord Buttons */
+.discord-button-row {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.discord-button {
+    background: #5865f2;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 0.85em;
+    transition: background 0.2s;
+}
+
+.discord-button:hover {
+    background: #4752c4;
+}
+
+/* Discord Form Elements */
+.discord-form {
+    background: #2f3136;
+    padding: 15px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.form-field {
+    margin-bottom: 15px;
+}
+
+.form-field:last-child {
+    margin-bottom: 0;
+}
+
+.form-field label {
+    display: block;
+    color: #b9bbbe;
+    font-size: 0.75em;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+}
+
+.discord-select, .discord-input {
+    width: 100%;
+    background: #202225;
+    border: 1px solid #202225;
+    border-radius: 4px;
+    padding: 10px 12px;
+    color: #dcddde;
+    font-size: 0.9em;
+    font-family: inherit;
+}
+
+.discord-select:focus, .discord-input:focus {
+    border-color: #00b0f4;
+    outline: none;
+}
+
+.discord-input::placeholder {
+    color: #72767d;
+}
+
+/* Web Mockup */
+.web-mockup {
+    background: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 900px;
+    margin: 30px auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.browser-bar {
+    background: #e8eaed;
+    padding: 12px 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.browser-dots {
+    display: flex;
+    gap: 6px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.dot.red { background: #ff5f56; }
+.dot.yellow { background: #ffbd2e; }
+.dot.green { background: #27c93f; }
+
+.browser-url {
+    background: #ffffff;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 0.8em;
+    color: #5f6368;
+    flex: 1;
+}
+
+.web-content {
+    padding: 30px;
+    background: #f8f9fa;
+    color: #202124;
+    text-align: left;
+}
+
+.web-content h3 {
+    color: #202124;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+}
+
+.review-controls {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+
+.review-controls label {
+    font-size: 0.85em;
+    color: #5f6368;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.web-input {
+    background: #ffffff;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 0.9em;
+    color: #202124;
+}
+
+.web-input.small {
+    width: 80px;
+}
+
+.web-button {
+    background: #1a73e8;
+    color: #ffffff;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.web-button:hover {
+    background: #1765cc;
+}
+
+.review-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85em;
+}
+
+.review-table thead {
+    background: #e8eaed;
+}
+
+.review-table th {
+    padding: 12px;
+    text-align: left;
+    font-weight: 600;
+    color: #202124;
+    border-bottom: 2px solid #dadce0;
+}
+
+.review-table td {
+    padding: 12px;
+    border-bottom: 1px solid #e8eaed;
+}
+
+.review-table tr.passing td {
+    background: rgba(67, 181, 129, 0.05);
+}
+
+.review-table tr.warning td {
+    background: rgba(250, 166, 26, 0.05);
+}
+
+.review-table tbody tr:hover {
+    background: rgba(0, 0, 0, 0.02);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .discord-mockup,
+    .web-mockup {
+        max-width: 100%;
+    }
+
+    .discord-button-row {
+        flex-direction: column;
+    }
+
+    .discord-button {
+        width: 100%;
+    }
+
+    .review-controls {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .review-table {
+        font-size: 0.75em;
+    }
+}

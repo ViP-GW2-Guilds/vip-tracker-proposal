@@ -1,0 +1,319 @@
+/* ViP Tracker Proposal - Custom Styling */
+
+:root {
+    --vip-primary: #7289da;
+    --vip-secondary: #43b581;
+    --vip-warning: #faa61a;
+    --vip-danger: #f04747;
+    --vip-dark: #2c2f33;
+    --vip-darker: #23272a;
+}
+
+/* Override reveal defaults */
+.reveal {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4 {
+    text-transform: none;
+}
+
+.reveal h1 {
+    font-size: 2.5em;
+    color: var(--vip-primary);
+}
+
+.reveal h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+/* Slide 1: Title & Problems */
+.problem-list {
+    text-align: left;
+    max-width: 800px;
+    margin: 40px auto;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.problem-list h4 {
+    color: var(--vip-warning);
+    margin-bottom: 20px;
+}
+
+.problem-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.problem-list li {
+    margin: 15px 0;
+    font-size: 1.2em;
+}
+
+/* Slide 2: Solution Overview */
+.solution-overview {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.solution-part {
+    flex: 1;
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid var(--vip-primary);
+}
+
+.solution-part h3 {
+    color: var(--vip-secondary);
+    margin-bottom: 15px;
+}
+
+.solution-part p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: #aaa;
+}
+
+.solution-part ul {
+    text-align: left;
+    font-size: 0.9em;
+}
+
+/* Slide 4: Feature Explanation */
+.feature-explanation {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.feature-step {
+    flex: 1;
+    max-width: 300px;
+    background: rgba(114, 137, 218, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid var(--vip-primary);
+}
+
+.feature-step h4 {
+    color: var(--vip-secondary);
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.feature-step p {
+    font-size: 0.9em;
+    color: #ccc;
+}
+
+.probi-tag {
+    color: var(--vip-warning);
+    font-style: italic;
+}
+
+/* Slide 6: Command Grid */
+.command-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.command-box {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 25px;
+    border-radius: 10px;
+    border: 2px solid var(--vip-primary);
+}
+
+.command-box h4 {
+    color: var(--vip-secondary);
+    margin-bottom: 10px;
+    font-family: 'Courier New', monospace;
+    font-size: 1em;
+}
+
+.command-box p {
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    color: #aaa;
+}
+
+.command-box .small-list {
+    text-align: left;
+    font-size: 0.85em;
+    line-height: 1.6;
+}
+
+/* Slide 9: Architecture */
+.architecture-diagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.arch-component {
+    width: 100%;
+    max-width: 600px;
+}
+
+.arch-box {
+    padding: 30px;
+    border-radius: 10px;
+    border: 3px solid;
+    text-align: center;
+}
+
+.arch-box h4 {
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+.arch-box p {
+    font-size: 0.9em;
+    color: #ccc;
+}
+
+.discord-color {
+    border-color: var(--vip-primary);
+    background: rgba(114, 137, 218, 0.1);
+}
+
+.db-color {
+    border-color: var(--vip-secondary);
+    background: rgba(67, 181, 129, 0.1);
+}
+
+.web-color {
+    border-color: var(--vip-warning);
+    background: rgba(250, 166, 26, 0.1);
+}
+
+.arch-arrow {
+    font-size: 3em;
+}
+
+.tech-details {
+    margin-top: 40px;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tech-details .small-list {
+    text-align: left;
+    font-size: 0.9em;
+    line-height: 1.8;
+}
+
+/* Slide 10: Timeline */
+.timeline {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.timeline-phase {
+    flex: 1;
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 25px;
+    border-radius: 10px;
+    border: 2px solid var(--vip-primary);
+}
+
+.timeline-phase h3 {
+    color: var(--vip-secondary);
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+.timeline-duration {
+    color: var(--vip-warning);
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+.timeline-list {
+    text-align: left;
+    font-size: 0.85em;
+    line-height: 1.8;
+}
+
+.total-timeline {
+    margin: 30px 0;
+    padding: 20px;
+    background: rgba(114, 137, 218, 0.2);
+    border-radius: 10px;
+}
+
+.total-timeline h3 {
+    color: var(--vip-secondary);
+    margin-bottom: 10px;
+}
+
+.benefits-summary {
+    margin-top: 30px;
+    background: rgba(67, 181, 129, 0.1);
+    padding: 25px;
+    border-radius: 10px;
+    border: 2px solid var(--vip-secondary);
+}
+
+.benefits-summary h4 {
+    color: var(--vip-secondary);
+    margin-bottom: 15px;
+}
+
+.benefits-summary ul {
+    text-align: left;
+    font-size: 0.95em;
+    line-height: 2;
+}
+
+/* Feature notes */
+.feature-note {
+    margin-top: 30px;
+    padding: 15px 25px;
+    background: rgba(67, 181, 129, 0.2);
+    border-left: 4px solid var(--vip-secondary);
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+/* Utility classes */
+.small-list {
+    font-size: 0.9em;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .solution-overview,
+    .command-grid,
+    .timeline,
+    .feature-explanation {
+        flex-direction: column;
+    }
+
+    .command-grid {
+        grid-template-columns: 1fr;
+    }
+}
